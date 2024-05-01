@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #604829;
+}
+.topo img{
+    position: relative;
+    width: 100px;
+    left: 15%;
+}
+.links{
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+.links a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    background-color: #604829;
+    text-shadow: 3px 5px 2px black;
+}
+.banner{
+    background-image: url(arquivos-do-projeto/assets/parallax-imagem1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.titulo-banner h1{
+    position: absolute;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 100px;
+    color: #fff;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.secao{
+    position: relative;
+    padding: 80px 0px;
+
+}
+.secao h2{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.secao p{
+    margin: 0px auto;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    max-width: 1024px;
+    padding: 0px 20px;
+    line-height: 35px;
+    
+}
+.parallax1{
+    background-image: url(arquivos-do-projeto/assets/parallax-imagem2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+}
+.parallax2{
+    background-image: url(arquivos-do-projeto/assets/parallax-imagem3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    position: relative;
+}
+.titulo-parallax1 h3, .titulo-parallax2 h3{
+    position: absolute;
+    background-color: #604829;
+    color: #fff;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    top: 45%;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    margin: 0px auto;
+    width: 500px;
+    letter-spacing: 2px;
+    
+}
+.contato{
+    position: relative;
+    background-image: url(arquivos-do-projeto/assets/parallax-imagem4.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.titulo-contato h2{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #604829;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0px auto;
+    width: 500px;
+    letter-spacing: 5px;
+    
+}
+iframe{
+    position: absolute;
+    top: 23%;
+    right: 0;
+    left: 0;
+    margin: 0px auto;
+}
+.box-contatos{
+    position: absolute;
+    padding: 10px;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: #604829;
+    color: #fff;
+    width: 500px;
+    margin: 0px auto;
+    text-shadow: 3px 5px 2px black;
+    line-height: 40px;
+}
+.horario{
+    position: relative;
+    background-image: url(arquivos-do-projeto/assets/cafeteria.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+}
+.titulo-horarios{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+.lista{
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    width: 768px;
+    color: #fff;
+    margin: 0px auto;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 50px;
+}
+.lista li{
+    position: relative;
+    
+}
+.lista li div{
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    background-color: #acacac;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    
+}
+.lista li p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #acacac;
+}
+span{
+    color: #c4a47c;
+}
+.rodape{
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+
+}
+.rodape img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 50px;
+    background-color: #c4a47c;
+    border: 2px solid #c4a47c;
+    border-radius: 5px;
+
+    
+}
